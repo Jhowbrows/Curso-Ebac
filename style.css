@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.conteudo{
+    margin: 160px auto;
+    padding: 15px;
+    max-width: 560px;
+    width: 100%;
+    background-color: gray;
+}
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+
+#campo-A, #campo-B {
+    margin-top: 7px;
+    padding: 6px;
+}
+
+button {
+    padding: 5px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.success-Message {
+    background-color: rgb(48, 230, 78);
+    padding: 16px;
+    color: #fff;
+    text-align: center;
+    display: none;
+    margin-top: 8px;
+}
+
+.error-Message {
+    font-size: 12px;
+    padding: 16px;
+    text-align: center;
+    background-color: rgb(171, 27, 27);
+    color: #fff;
+    margin-top: 8px;
+    display: none;
+}
