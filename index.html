@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="inicio">
+            <h1>Lista de tarefas</h1>
+            <button id="abrir-form" type="button">Iniciar</button>
+        </div>
+
+        <form id="formulario">
+            <input type="text" id="formulario-tarefa" placeholder="Digíte sua tarefa" required>
+            <button type="submit" class="botao-adicionar">Adicionar</button>
+        </form>
+        
+        <ul class="lista-de-tarefas"></ul>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</body>
+</html>
