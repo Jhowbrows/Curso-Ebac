@@ -21,14 +21,16 @@ $(document).ready(function() {
             email: {required: true, email:true},
             telefone: {required: true},
             cpf: {required:true},
+            endereco: {required: true},
             cep: {required: true}
         },
         messages: {
-            nome: 'Por favor insira o seu nome',
+            nome: 'Por favor, insira o seu nome',
             email: 'Por favor, insira o seu email',
             telefone: 'Por favor, insira o seu número de telefone',
             cpf: 'Por favor,insira o número do seu CPF',
-            cep: 'Por favor insira o numero do seu cep'
+            endereco: 'Por favor, insira seu endereço',
+            cep: 'Por favor, insira o numero do seu cep'
         },
         submitHandler: function(form){
             alert("Sua requisição foi enviada para análise, parabéns pela aquisição!");
