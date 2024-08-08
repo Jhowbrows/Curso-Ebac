@@ -1,0 +1,13 @@
+body{
+    background-color: gray;
+}
+
+.container{
+    width: 50%;
+    margin: 10% auto;
+}
+
+.borda{
+    border: 7px solid rgb(177, 174, 174);
+    padding: 15px;
+}
